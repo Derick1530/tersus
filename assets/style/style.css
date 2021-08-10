@@ -100,19 +100,29 @@ a{
 /* ========= DISPLAY ARTICLE=========== */
 
 .container{
+    display: flex;
+    border-radius: 4px;
+
+    flex-direction: column;
+    justify-content: center;
+
+    width: 90%;
+    margin: 0 auto ;
     background-color: white;
-    width: 80%;
-    margin-top: 2rem;
-    margin-left: 10%;
-    height: 30rem;
-    box-shadow: 3px 20px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.5);
     
 }
 
-.box-display{
-    margin:0;
-    align-items: center;
+.box-image{
+    border-radius: 4px;
+    box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.205);
+    background-color: #eee;
+    width: 18rem;
+    height: 20rem;
+    margin-top: 2px;
+
 }
+
 /* ======= FOOTER =========== */
 
 .footer-container{
